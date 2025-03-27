@@ -79,7 +79,7 @@ Update the policy store schema
     the policy store.
   * You have an existing policy store used for Airflow and you made some modifications to its schema you want to revert.
   * You have an existing policy store used for Airflow and you want to update its schema to the latest version.
-    This is only needed if your policy store schema and `the latest schema version <https://github.com/apache/airflow/blob/main/providers/amazon/aws/src/airflow/providers/amazon/aws/auth_manager/avp/schema.json>`_
+    This is only needed if your policy store schema and `the latest schema version <https://github.com/apache/airflow/blob/main/providers/amazon/src/airflow/providers/amazon/aws/auth_manager/avp/schema.json>`_
     are different. If so, there should be a warning message when Airflow is starting.
 
 With CLI
